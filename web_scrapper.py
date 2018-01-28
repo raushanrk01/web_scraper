@@ -1,7 +1,7 @@
 import requests
 
 from bs4 import BeautifulSoup
-date=input("Enter the date in (DD/MM/YYYY) format to view the headlines:\n")
+date=input("Enter the date in (DD/MM/YY) format to view the headlines:\n")
 date1=date.replace("/","")
 url = "http://www.rediff.com/issues/"+date1+"hl.html"
 
